@@ -1,0 +1,67 @@
+header {
+    display: inline-block;
+    width: 100%;
+}
+nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+a {
+    display: inline-block;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 5px;
+}
+nav > a:hover {
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid  rgb(125, 217, 248);
+    border-radius: 5px;
+    background-color: rgb(125, 217, 248);
+
+}
+.container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 79px);
+}
+.row {
+    display: inline-block;
+    margin-top: calc( ( (100vh - 79px) - 191px) / 2);
+}
+.row *  {
+    padding-top: 15px;
+}
+.row > h1 {
+    font-size: 25px;
+}
+.row > p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.row > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color: #fff;
+    opacity: 0.8;
+}
+.row > a:hover {
+    opacity: 1;
+    background-color: rgb(125, 217, 248);
+}
+footer > p {
+    text-align: center;
+    padding: 10px 0;
+}
